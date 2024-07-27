@@ -9,7 +9,7 @@ body{
     background-color: #339765;
 }
 .background{
-    width: 430px;
+    width: auto;
     height: 520px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -68,11 +68,28 @@ input{
     font-size: 14px;
     font-weight: 300;
 }
+select{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+option{
+    color: #080710;
+    
+
+}
 ::placeholder{
     color: #e5e5e5;
 }
 button{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 100%;
     background-color: #ffffff;
     color: #080710;
@@ -86,4 +103,11 @@ button{
 button:hover{
     background-color: #266E4D;
     color: #ffffff;
+}
+
+.register{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
 }
