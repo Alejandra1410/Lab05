@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#welcome {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#welcome .container {
+    max-width: 500px;
+    text-align: center;
+}
+
+#welcome h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(2, 2, 2);
+}
+
+#welcome .explore-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #004080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#welcome .explore-button:hover {
+    background-color: #002b5e;
+}
+
+#welcome .image-container {
+    max-width: 500px;
+    margin: 1rem;
+}
+
+#welcome .image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo img{
+    width: 65px;
+    height: 65px;
+}
