@@ -20,12 +20,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['rol'] = $rol;
 
             // CAMBIAR PESTAÑAS
-            if ($rol === 'administrador') {
-                header("Location: admin_dashboard.php");
+            if ($rol === 'admin') {
+                header("Location: indexA.php");
             } elseif ($rol === 'profesor') {
-                header("Location: loginSing.php");
+                header("Location: indexP.php");
             } elseif ($rol === 'estudiante') {
-                header("Location: estudiante_dashboard.php");
+                header("Location: indexE.php");
             }
             exit();
         } else {

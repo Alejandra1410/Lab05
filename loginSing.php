@@ -34,7 +34,7 @@
         <select name="rol" id="rol">
             <option value="estudiante">Estudiante</option>
             <option value="profesor">Profesor</option>
-            <option value="administrador">Administrador</option>
+            <option value="admin">Administrador</option>
         </select>
 
 

@@ -24,6 +24,8 @@
     <section id="welcome">
         <div class="container">
             <h1>Binvenidos a Alkkalla</h1>
+            
+            <p>Administrador</p>
             <a href="#explore-more" class="explore-button">Explorar Más</a>
         </div>
         <div class="image-container">
