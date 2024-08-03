@@ -15,8 +15,10 @@
             <ul>
                 <li><a href="#about">Acerca de nosotros</a></li>
                 <li><a href="#admissions">Admisiones</a></li>
-                <li><a href="cursos.php">Cursos</a></li>
+                <li><a href="cursosSeleccion.php">Cursos</a></li>
                 <li><a href="#news-events">Noticias y Eventos</a></li>
+                <li><a href="registerUsers.php">Usuarios</a></li>
+                <li><a href="login.php">Cerrar sesión</a></li> <!-- Agregado -->
             </ul>
         </nav>
     </header>
@@ -29,7 +31,7 @@
             <a href="#explore-more" class="explore-button">Explorar Más</a>
         </div>
         <div class="image-container">
-            <img src="/img/harvard.webp" alt="Niños jugando">
+            <img src="img/harvard.webp" alt="">
         </div>
     </section>
 

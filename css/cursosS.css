@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #004080;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002b5e;
+}
+
+.background {
+    background-color: #004080;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.shape {
+    height: 200px;
+    width: 200px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.shape:last-child {
+    top: auto;
+    bottom: -50px;
+    right: -50px;
+    left: auto;
+}
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.back{
+    background-color: #333a;
+}
+
+.back:hover{
+    background-color:#333;
+}
+
+.agregarCurso {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%;
+    max-width: 300px;
+}

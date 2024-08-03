@@ -1,4 +1,5 @@
 <?php
+// LOGIN LOGIC
 session_start(); 
 
 include_once 'config.php'; 
@@ -30,9 +31,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit();
         } else {
             $error_message = "Contraseña incorrecta.";
+            echo "<script>alert('$error_message');</script>";
+            header("Location: login.php");
         }
     } else {
         $error_message = "Cédula no encontrada.";
+        echo "<script>alert('$error_message');</script>";
+        header("Location: login.php");
     }
 
     $stmt->close();
